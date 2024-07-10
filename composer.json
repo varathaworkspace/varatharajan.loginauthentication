@@ -1,0 +1,20 @@
+{
+    "name": "dell/login-project",
+    "description": "A simple login authentication web page using HTML, PHP, JavaScript, CSS, and MongoDB.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dell\\LoginProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "skip"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mongodb/mongodb": "^1.19"
+    }
+}
